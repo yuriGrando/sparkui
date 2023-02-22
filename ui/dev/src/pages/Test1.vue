@@ -1,9 +1,14 @@
 <template>
   <q-page padding>
-    
+
     <spark-components />
-    
-    
+
+    <spk-btn
+      label="teste"
+      icon="search"
+    />
+
+
   </q-page>
 </template>
 

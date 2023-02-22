@@ -67,7 +67,7 @@ const builds = [
         input: pathResolve('../src/index.umd.js')
       },
       output: {
-        name: 'Spark',
+        name: 'my-spark',
         file: pathResolve('../dist/index.umd.js'),
         format: 'umd'
       }
@@ -116,7 +116,7 @@ function addAssets (builds, type, injectName) {
           output: {
             file: addExtension(pathResolve(`../dist/${type}/${file}`), 'umd'),
             format: 'umd',
-            name: `Spark.${injectName}.${name}`
+            name: `my-spark.${injectName}.${name}`
           }
         },
         build: {

@@ -1,13 +1,13 @@
-# Quasar App Extension spark-components
+# Quasar App Extension my-spark
 
 > Add a short description of your App Extension. What does it do? How is it beneficial? Why would someone want to use it?
 
-[![npm](https://img.shields.io/npm/v/quasar-app-extension-spark-components.svg?label=quasar-app-extension-spark-components)](https://www.npmjs.com/package/quasar-app-extension-spark-components)
-[![npm](https://img.shields.io/npm/dt/quasar-app-extension-spark-components.svg)](https://www.npmjs.com/package/quasar-app-extension-spark-components)
+[![npm](https://img.shields.io/npm/v/quasar-app-extension-my-spark.svg?label=quasar-app-extension-my-spark)](https://www.npmjs.com/package/quasar-app-extension-my-spark)
+[![npm](https://img.shields.io/npm/dt/quasar-app-extension-my-spark.svg)](https://www.npmjs.com/package/quasar-app-extension-my-spark)
 
 # Install
 ```bash
-quasar ext add spark-components
+quasar ext add my-spark
 ```
 Quasar CLI will retrieve it from NPM and install the extension.
 
@@ -17,7 +17,7 @@ Quasar CLI will retrieve it from NPM and install the extension.
 
 # Uninstall
 ```bash
-quasar ext remove spark-components
+quasar ext remove my-spark
 ```
 
 # Info

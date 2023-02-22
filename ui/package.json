@@ -1,8 +1,8 @@
 {
-  "name": "quasar-ui-spark-teste",
+  "name": "quasar-ui-my-spark",
   "version": "0.0.1",
   "author": "yuriGrando <yv.grando@gmail.com>",
-  "description": "My awesome component",
+  "description": "myspark components",
   "license": "MIT",
   "module": "dist/index.esm.js",
   "main": "dist/index.common.js",
@@ -19,10 +19,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yuriGrando/sparkui.git"
+    "url": "https://github.com/yuriGrando/sparkui"
   },
   "bugs": "https://github.com/yuriGrando/sparkui/issues",
-  "homepage": "https://github.com/yuriGrando/sparkui.git",
+  "homepage": "https://github.com/yuriGrando/sparkui",
   "devDependencies": {
     "autoprefixer": "^10.0.2",
     "cssnano": "^4.1.10",

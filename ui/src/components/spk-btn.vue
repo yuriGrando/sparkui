@@ -1,23 +1,23 @@
 <template>
     <q-btn
-        color="primary"
-        outlined
-        :icon="icon"
         :label="label"
-    >
+        color="primary"
+        outline
+        :icon="icon"
+    />
 
-    </q-btn>
 </template>
 
 <script>
 export default {
     name: "spk-btn",
     props: {
-        icon: {
+        label: {
             type: String,
             required: true,
         },
-        label: {
+
+        icon: {
             type: String,
             required: true,
         }

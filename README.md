@@ -1,5 +1,5 @@
-<img src="https://img.shields.io/npm/v/quasar-ui-spark-components.svg?label=quasar-ui-spark-components">
-<img src="https://img.shields.io/npm/v/quasar-app-extension-spark-components.svg?label=quasar-app-extension-spark-components">
+<img src="https://img.shields.io/npm/v/quasar-ui-my-spark.svg?label=quasar-ui-my-spark">
+<img src="https://img.shields.io/npm/v/quasar-app-extension-my-spark.svg?label=quasar-app-extension-my-spark">
 
 Compatible with Quasar UI v2 and Vue 3.
 

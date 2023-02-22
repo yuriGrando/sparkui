@@ -2,12 +2,12 @@ import { h } from 'vue'
 import { QBadge } from 'quasar'
 
 export default {
-  name: 'spark-components',
+  name: 'my-spark',
 
   setup () {
     return () => h(QBadge, {
-      class: 'spark-components',
-      label: 'spark-components'
+      class: 'my-spark',
+      label: 'my-spark'
     })
   }
 }

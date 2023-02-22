@@ -1,12 +1,12 @@
-# Component spark-components
+# Component my-spark
 
-[![npm](https://img.shields.io/npm/v/quasar-ui-spark-components.svg?label=quasar-ui-spark-components)](https://www.npmjs.com/package/quasar-ui-spark-components)
-[![npm](https://img.shields.io/npm/dt/quasar-ui-spark-components.svg)](https://www.npmjs.com/package/quasar-ui-spark-components)
+[![npm](https://img.shields.io/npm/v/quasar-ui-my-spark.svg?label=quasar-ui-my-spark)](https://www.npmjs.com/package/quasar-ui-my-spark)
+[![npm](https://img.shields.io/npm/dt/quasar-ui-my-spark.svg)](https://www.npmjs.com/package/quasar-ui-my-spark)
 
 **Compatible with Quasar UI v2 and Vue 3**.
 
 
-# Component spark-components
+# Component my-spark
 > Short description of the component
 
 
@@ -26,8 +26,8 @@ Create and register a boot file:
 
 ```js
 import Vue from 'vue'
-import Plugin from 'quasar-ui-spark-components'
-import 'quasar-ui-spark-components/dist/index.css'
+import Plugin from 'quasar-ui-my-spark'
+import 'quasar-ui-my-spark/dist/index.css'
 
 Vue.use(Plugin)
 ```
@@ -35,15 +35,15 @@ Vue.use(Plugin)
 **OR**:
 
 ```html
-<style src="quasar-ui-spark-components/dist/index.css"></style>
+<style src="quasar-ui-my-spark/dist/index.css"></style>
 
 <script>
-import { Component as spark-components } from 'quasar-ui-spark-components'
+import { Component as my-spark } from 'quasar-ui-my-spark'
 
 export default {
   
   components: {
-    spark-components
+    my-spark
   }
   
   
@@ -55,8 +55,8 @@ export default {
 
 ```js
 import Vue from 'vue'
-import Plugin from 'quasar-ui-spark-components'
-import 'quasar-ui-spark-components/dist/index.css'
+import Plugin from 'quasar-ui-my-spark'
+import 'quasar-ui-my-spark/dist/index.css'
 
 Vue.use(Plugin)
 ```
@@ -64,15 +64,15 @@ Vue.use(Plugin)
 **OR**:
 
 ```html
-<style src="quasar-ui-spark-components/dist/index.css"></style>
+<style src="quasar-ui-my-spark/dist/index.css"></style>
 
 <script>
-import { Component as spark-components } from 'quasar-ui-spark-components'
+import { Component as my-spark } from 'quasar-ui-my-spark'
 
 export default {
   
   components: {
-    spark-components
+    my-spark
   }
   
   
@@ -82,23 +82,23 @@ export default {
 
 ## UMD variant
 
-Exports `window.Spark`.
+Exports `window.my-spark`.
 
 Add the following tag(s) after the Quasar ones:
 
 ```html
 <head>
   <!-- AFTER the Quasar stylesheet tags: -->
-  <link href="https://cdn.jsdelivr.net/npm/quasar-ui-spark-components/dist/index.min.css" rel="stylesheet" type="text/css">
+  <link href="https://cdn.jsdelivr.net/npm/quasar-ui-my-spark/dist/index.min.css" rel="stylesheet" type="text/css">
 </head>
 <body>
   <!-- at end of body, AFTER Quasar script(s): -->
-  <script src="https://cdn.jsdelivr.net/npm/quasar-ui-spark-components/dist/index.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/quasar-ui-my-spark/dist/index.umd.min.js"></script>
 </body>
 ```
 If you need the RTL variant of the CSS, then go for the following (instead of the above stylesheet link):
 ```html
-<link href="https://cdn.jsdelivr.net/npm/quasar-ui-spark-components/dist/index.rtl.min.css" rel="stylesheet" type="text/css">
+<link href="https://cdn.jsdelivr.net/npm/quasar-ui-my-spark/dist/index.rtl.min.css" rel="stylesheet" type="text/css">
 ```
 
 # Setup

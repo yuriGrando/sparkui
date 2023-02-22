@@ -11,7 +11,7 @@
         />
 
         <q-toolbar-title>
-          quasar-ui-spark-components v{{ version }}
+          quasar-ui-my-spark v{{ version }}
         </q-toolbar-title>
 
         <div>Quasar v{{ $q.version }}</div>

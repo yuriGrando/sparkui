@@ -1,18 +1,18 @@
 {
-  "name": "quasar-app-extension-spark-teste",
+  "name": "quasar-app-extension-my-spark",
   "version": "0.0.1",
-  "description": "spark-components",
+  "description": "myspark components",
   "author": "yuriGrando <yv.grando@gmail.com>",
   "license": "MIT",
   "main": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yuriGrando/sparkui.git"
+    "url": "https://github.com/yuriGrando/sparkui"
   },
   "bugs": "https://github.com/yuriGrando/sparkui/issues",
-  "homepage": "https://github.com/yuriGrando/sparkui.git",
+  "homepage": "https://github.com/yuriGrando/sparkui",
   "dependencies": {
-    "quasar-ui-spark-components": "latest"
+    "quasar-ui-my-spark": "latest"
   },
   "engines": {
     "node": ">= 8.9.0",

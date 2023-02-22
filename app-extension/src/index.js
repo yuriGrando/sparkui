@@ -8,13 +8,13 @@
 
 function extendConf (conf) {
   // register our boot file
-  conf.boot.push('~quasar-app-extension-spark-components/src/boot/register.js')
+  conf.boot.push('~quasar-app-extension-my-spark/src/boot/register.js')
 
   // make sure app extension files & ui package gets transpiled
-  conf.build.transpileDependencies.push(/quasar-app-extension-spark-components[\\/]src/)
+  conf.build.transpileDependencies.push(/quasar-app-extension-my-spark[\\/]src/)
 
   // make sure the stylesheet goes through webpack to avoid SSR issues
-  conf.css.push('~quasar-ui-spark-components/src/index.sass')
+  conf.css.push('~quasar-ui-my-spark/src/index.sass')
 }
 
 module.exports = function (api) {
@@ -32,7 +32,7 @@ module.exports = function (api) {
 
 
   // Uncomment the line below if you provide a JSON API for your component
-  // api.registerDescribeApi('spark-components', '~quasar-ui-spark-components/src/components/spark-components.json')
+  // api.registerDescribeApi('my-spark', '~quasar-ui-my-spark/src/components/my-spark.json')
 
 
   // We extend /quasar.conf.js
